@@ -1,0 +1,74 @@
+.Why-Procredita {
+  background: #f5f9ff;
+}
+.Why-Procredita_title {
+  margin: 30px auto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+}
+.Why-Procredita_title span {
+    font-size: 36px;
+    font-weight: 700;
+} 
+
+.Why-Procredita_bdy {
+  font-family: Poppins;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.Why-Procredita_bdy div:nth-child(1) {
+  font-size: 1rem;
+}
+.img {
+  height: 507px;
+  width: 50%;
+  background-image: url("../images-&-icons/Why-Procredita2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.our-technology {
+  background-color: #fff;
+  box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.our-technology__cards {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.our-technology__card {
+  width: 30%;
+  text-align: center;
+  height: 560px;
+}
+.our-technology__card img {
+  display: inline-block;
+  margin: 69px 0 83px 0;
+}
+.our-technology__card_bdy {
+  font-size: 1rem;
+}
+
+.our-technology_btn {
+  width: fit-content;
+  padding: 10px 50px;
+  background: #0025b4;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.our-technology_btn:hover {
+  box-shadow: 0 0 5px #0025b4;
+  transition: all 200ms;
+}
