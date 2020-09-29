@@ -1,8 +1,15 @@
-/* import WhyProcredita from "./WhyProcredita"; */
+
 
 import img1 from "../images-&-icons/our-tech-one.svg";
 import img2 from "../images-&-icons/our-tech-two.svg";
 import img3 from "../images-&-icons/our-tech-three.svg";
+
+/* ----------- ClIENT IMAGES ------------- */
+import img4 from "../images-&-icons/client-one.svg";
+import img5 from "../images-&-icons/client-two.svg";
+import img6 from "../images-&-icons/client-three.svg";
+import img7 from "../images-&-icons/client-four.svg";
+
 export const whatWeDoBody = `Our professionals have a combined 85 years in debt recovery efforts that have seen the recovery of more than N19Billion in debt from very unwilling debtors.We use the most advanced techniques to trace debtors and recover money owed. We also offer an alternative method for loan recoveries by allowing debtors provide value worth the amount they are unable to pay.`;
 
 export const whyProcredita = `Dealing with debtors can be very stressful for clients, not to mention the time it can take to recover the debt. 
@@ -34,3 +41,26 @@ The Bawopada Regional Franchise (BRF) Licence varies from N750,000 to N2,000,000
 The average "debt to be recovered" (DBR) a BRF licence operator is entitled per year is N150M with 25% of successfully recovered debt as commission for the operator.
 
 Our license are available for all parts of Nigeria except Borno, Zamfara and Bayelsa State.`;
+
+export const ourClients = [
+  {
+    img: img4,
+    testimony:
+      "I never believed I could get my 3.5 Million naira back until Procredita stepped in and even collected the interest from the debtor.",
+  },
+  {
+    img: img5,
+    testimony:
+      "I never believed I could get my 3.5 Million naira back until Procredita stepped in and even collected the interest from the debtor.",
+  },
+  {
+    img: img6,
+    testimony:
+      "I never believed I could get my 3.5 Million naira back until Procredita stepped in and even collected the interest from the debtor.",
+  },
+  {
+    img:img7,
+    testimony:
+      "I never believed I could get my 3.5 Million naira back until Procredita stepped in and even collected the interest from the debtor.",
+  },
+];

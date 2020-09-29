@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import navBarData from "./navBarData";
-import logo from "../images-&-icons/logo-image.svg";
 import "./nav-style.css";
-
 
 function NavBar() {
   const [navData] = useState(navBarData);
@@ -21,10 +19,7 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div>
-          <div className="navbar__logo">
-            <img src={logo} className="navbar-logo__img" />
-            <span>Procredita</span>
-          </div>
+          <div className="navbar__logo"></div>
 
           <div
             className={`navbar__menu  ${navLinkActive && "navbar-menu-active"}`}
@@ -39,8 +34,7 @@ function NavBar() {
                 {navData.map((link, i) => (
                   <li className="nav_links" key={i}>
                     <a
-                      href="#dj"
-                      activeClassName="navbar-link-active"
+                      href={link.url}
                       onClick={() => {
                         horizontalNavHandler();
                       }}

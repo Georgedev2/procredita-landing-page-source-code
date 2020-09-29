@@ -1,6 +1,6 @@
 import React from "react";
-
-import { whatWeDoBody, regionalFranchise } from "./homeData";
+import Fade from "react-reveal/Fade";
+import { whatWeDoBody, regionalFranchise, ourClients } from "./homeData";
 import "./home-style.css";
 import WhyProcredita from "./WhyProcredita";
 
@@ -31,7 +31,7 @@ function HomePage() {
           <span>Own a Procredita Regional Franchise</span>
         </div>
         <div className="regional-franchise__bdy">
-          <div className="img-cont"></div>
+          <div className="regional-franchise-bdy_img"></div>
           <div className="regional-franchise-bdy_txt">
             <div>{regionalFranchise}</div>
             <div>Become a Debt Collection Manager</div>
@@ -39,8 +39,32 @@ function HomePage() {
           </div>
         </div>
       </div>
+      <div className="our-partners">
+        <div className="our-partners_title">
+          We are partnered with several major financial institutions and
+          businesses in Nigeria. <span>Procredita </span> is your
+          trusour-partnersted partner in efficient debt recovery. We get the job
+          done.
+        </div>
+        <p>Why not try us today?</p>
+        <div>Hire Us</div>
+      </div>
+      <div className="our-clients">
+        <div>Hear from some of our clients</div>
+        <Fade bottom>
+          <div className="cleints">
+            {ourClients.map((cleint, index) => (
+              <div key={index} className="cleint">
+                <div>{cleint.testimony}</div>
+                <div className="cleint_img">
+                  <img src={cleint.img} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </Fade>
+      </div>
     </div>
   );
 }
-
 export default HomePage;

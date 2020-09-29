@@ -1,0 +1,29 @@
+footer > div:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footer-logo {
+  margin-bottom: 25px;
+}
+
+.legal_title,
+.company_title {
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #041e8b;
+}
+
+.company > ul {
+  list-style-type: none;
+}
+.cookie-title {
+  letter-spacing: 0.25px;
+  color: #041e8b;
+  font-weight: 700;
+}
+.right{
+   text-align: center;
+}

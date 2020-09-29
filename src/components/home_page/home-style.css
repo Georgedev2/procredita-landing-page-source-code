@@ -1,5 +1,5 @@
 .homepage {
-  margin: 120px auto;
+  margin: 140px auto;
 }
 .services {
   display: flex;
@@ -49,7 +49,13 @@
   width: 50%;
   height: 438px;
   width: 467px;
-  background-image: url("../images-&-icons/what-we-do.svg");
+  background-image: url("../images-&-icons/service-image.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.regional-franchise {
+  margin: 50px 0;
 }
 .regional-franchise__title {
   text-align: center;
@@ -63,13 +69,33 @@
   letter-spacing: 0px;
   text-align: center;
 }
-.regional-franchise-bdy_txt {
-  width: 40%;
-  text-align: left;
+.regional-franchise__bdy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.regional-franchise-bdy_img {
+  width: 50%;
+  height: 400px;
+  background-image: url("../images-&-icons/regiona-franchise.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
 }
 
+.regional-franchise-bdy_txt {
+  width: 40%;
+  text-align: right;
+}
+.regional-franchise-bdy_txt div:nth-child(2) {
+  font-family: Trueno;
+  font-weight: bold;
+  font-size: 20px;
+  color: #01114c;
+  margin: 20px 0;
+}
 .signup-btn {
-  width: fit-content;
+  display: inline-block;
   padding: 10px 50px;
   background: #0025b4;
   border-radius: 5px;
@@ -80,4 +106,72 @@
 .signup-btn:hover {
   box-shadow: 0 0 5px #0025b4;
   transition: all 200ms;
+}
+
+.our-partners {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cacedd;
+}
+.our-partners_title,
+.our-partners p {
+  width: 65%;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.our-partners_title {
+  margin-top: 60px;
+}
+.our-partners_title span {
+  color: #1b1e76;
+  font-size: 25px;
+  font-weight: 700;
+}
+.our-partners p {
+  margin: 32px 0;
+}
+
+.our-partners div:nth-child(3) {
+  display: inline-block;
+  padding: 10px 50px;
+  background: #0025b4;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.our-partners div:nth-child(3):hover {
+  box-shadow: 0 0 5px #0025b4;
+  transition: all 200ms;
+}
+.our-clients > div:nth-child(1) {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 74px 0;
+}
+.cleints {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cleint {
+  width: 40%;
+  margin: 53px;
+}
+.cleint div:nth-child(1) {
+  box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+}
+.cleint_img {
+  text-align: right;
+  margin: 20px 0;
 }

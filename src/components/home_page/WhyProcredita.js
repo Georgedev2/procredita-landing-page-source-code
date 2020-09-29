@@ -1,14 +1,15 @@
 import React from "react";
 import "./why-procredita.css";
 import { whyProcredita, ourTech } from "./homeData";
+import img from "../images-&-icons/why-procredita-logo.svg";
 
+//src\components\images-&-icons\why-procredita-logo.svg
 function WhyProcredita() {
   return (
     <div className="Why-Procredita">
-      
       <div className="Why-Procredita_title">
-          <span></span>
-          <span>Why Procredita</span></div>
+        <img src={img} alt="why procredita image" />
+      </div>
       <div className="Why-Procredita_bdy">
         <div>{whyProcredita}</div>
         <div className="img"></div>

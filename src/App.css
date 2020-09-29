@@ -28,7 +28,8 @@ body {
 .App {
   overflow-x: hidden;
 }
-.App-main {
+.App-main,
+footer {
   width: 95%;
   margin: auto;
 }
@@ -38,5 +39,3 @@ body {
     width: 95%;
   }
 }
-
-

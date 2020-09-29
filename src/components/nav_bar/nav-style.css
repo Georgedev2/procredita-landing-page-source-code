@@ -22,20 +22,20 @@
   background-color: var(--pramary-color-two);
 }
 
-/* ------------  ---------- */
+/* ------------ NAV-LOGO ---------- */
 .navbar__logo {
- /*  text-transform: uppercase; */
-  font-weight: 600;
-  letter-spacing: 2px;
-  cursor: pointer;
-  color: #1b1e76;
-  display: flex;
-}
-.navbar-logo__img {
+  width: 185px;
   height: 30px;
-  width: 31px;
-  border-radius: 5px;
-  margin-right: 10px;
+  cursor: pointer;
+  background-image: url("../images-&-icons/header-logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar__logo img {
+  width: 185px;
+  height: 30px;
+  cursor: pointer;
 }
 
 /* -------------NAV-BAR-MENU --------- */
@@ -60,6 +60,7 @@
   padding: 33px 10px;
   font-size: 1rem;
   cursor: pointer;
+  letter-spacing: 0;
 }
 
 .nav_links a:hover {
@@ -68,6 +69,9 @@
 
 .navbar-link-active {
   border-bottom: 4px solid var(--pramary-color);
+}
+.customActive{
+  color:red
 }
 
 .hire-us {
