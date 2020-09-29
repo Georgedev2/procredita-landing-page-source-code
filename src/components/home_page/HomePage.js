@@ -3,8 +3,8 @@ import Fade from "react-reveal/Fade";
 import { whatWeDoBody, regionalFranchise, ourClients } from "./homeData";
 import "./home-style.css";
 import WhyProcredita from "./WhyProcredita";
-import HireUs from "./HireUs"
-import img from "../images-&-icons/service-image.svg"
+import HireUs from "./HireUs";
+import img from "../images-&-icons/service-image.svg";
 
 function HomePage() {
   return (
@@ -17,7 +17,7 @@ function HomePage() {
           <div className="what-we-do__body">{whatWeDoBody}</div>
           <div className="what-we-do__btns">
             <a href="#EFj"></a>
-{/* <HireUs/> */}
+            {/* <HireUs/> */}
             <div className="what-we-do-btn__two">
               <span></span>
               <a href="#gdhd">Watch the Video</a>
@@ -25,7 +25,7 @@ function HomePage() {
           </div>
         </div>
         <div className="service__img-box">
-          <img src={img}/>
+          <img src={img} />
         </div>
       </div>
       <WhyProcredita />
@@ -43,6 +43,7 @@ function HomePage() {
           </div>
         </div>
       </div>
+
       <div className="our-partners">
         <div className="our-partners_title">
           We are partnered with several major financial institutions and
@@ -51,10 +52,13 @@ function HomePage() {
           done.
         </div>
         <p>Why not try us today?</p>
-        <div className="our-partners_hire-us"><a>Hire Us</a></div>
+        <div className="our-partners_hire-us">
+          <a>Hire Us</a>
+        </div>
       </div>
+
       <div className="our-clients">
-        <div>Hear from some of our clients</div>
+        <div className="our-clients_title">Hear from some of our clients</div>
         <Fade bottom>
           <div className="cleints">
             {ourClients.map((cleint, index) => (

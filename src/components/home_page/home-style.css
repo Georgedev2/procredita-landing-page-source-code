@@ -1,5 +1,5 @@
 .homepage {
-  margin: 140px auto;
+  margin: 140px auto 70px auto;
 }
 .services {
   display: flex;
@@ -126,11 +126,11 @@
 }
 .our-partners_title,
 .our-partners p {
-  width: 65%;
+  width:80%;
   font-size: 25px;
   font-weight: 700;
   text-align: center;
-  color:#fff
+  color: #fff;
 }
 .our-partners_title {
   margin-top: 60px;
@@ -143,11 +143,6 @@
 .our-partners p {
   margin: 32px 0;
 }
-/* .our-partners_hire-us {
-  width: 200px;
-  height: 30px;
-background-image: url("../images-&-icons/hire-us-white.png");
-} */
 
 .our-partners div:nth-child(3) {
   display: inline-block;
@@ -155,7 +150,7 @@ background-image: url("../images-&-icons/hire-us-white.png");
   color: #0025b4;
   background: #0025b4;
   border-radius: 5px;
-  color: #fff; 
+  color: #fff;
   font-size: 1rem;
   cursor: pointer;
   margin-bottom: 30px;
@@ -164,7 +159,7 @@ background-image: url("../images-&-icons/hire-us-white.png");
   box-shadow: 0 0 5px #0025b4;
   transition: all 200ms;
 }
-.our-clients > div:nth-child(1) {
+.our-clients_title {
   font-family: Poppins;
   font-size: 36px;
   font-weight: 700;
@@ -191,3 +186,23 @@ background-image: url("../images-&-icons/hire-us-white.png");
   text-align: right;
   margin: 20px 0;
 }
+
+/* -------BREAK POINTS @ 1024px---------- */
+@media (max-width: 1024px) {
+  .cleint {
+    width: 35%;
+    margin: 53px;
+  }
+}
+/* -------BREAK POINTS @ 500px---------- */
+@media (max-width: 560px) {
+  .our-clients_title {
+    margin: 50px 0;
+  }
+  .cleint {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
