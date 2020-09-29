@@ -51,7 +51,7 @@ function HomePage() {
           done.
         </div>
         <p>Why not try us today?</p>
-        <div>Hire Us</div>
+        <div className="our-partners_hire-us"><a>Hire Us</a></div>
       </div>
       <div className="our-clients">
         <div>Hear from some of our clients</div>
