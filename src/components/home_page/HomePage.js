@@ -3,6 +3,8 @@ import Fade from "react-reveal/Fade";
 import { whatWeDoBody, regionalFranchise, ourClients } from "./homeData";
 import "./home-style.css";
 import WhyProcredita from "./WhyProcredita";
+import HireUs from "./HireUs"
+import img from "../images-&-icons/service-image.svg"
 
 function HomePage() {
   return (
@@ -14,15 +16,17 @@ function HomePage() {
           </div>
           <div className="what-we-do__body">{whatWeDoBody}</div>
           <div className="what-we-do__btns">
-            <button>Hire Us</button>
-
+            <a href="#EFj"></a>
+{/* <HireUs/> */}
             <div className="what-we-do-btn__two">
               <span></span>
-              <span>Watch the Video</span>
+              <a href="#gdhd">Watch the Video</a>
             </div>
           </div>
         </div>
-        <div className="service__img-box"></div>
+        <div className="service__img-box">
+          <img src={img}/>
+        </div>
       </div>
       <WhyProcredita />
       <div className="regional-franchise">

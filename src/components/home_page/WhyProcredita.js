@@ -3,7 +3,6 @@ import "./why-procredita.css";
 import { whyProcredita, ourTech } from "./homeData";
 import img from "../images-&-icons/why-procredita-logo.svg";
 
-//src\components\images-&-icons\why-procredita-logo.svg
 function WhyProcredita() {
   return (
     <div className="Why-Procredita">

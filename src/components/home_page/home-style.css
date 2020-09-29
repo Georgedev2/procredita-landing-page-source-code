@@ -15,7 +15,6 @@
   font-weight: 700;
   line-height: 54px;
   letter-spacing: 0px;
-  color: 2f281e;
 }
 .what-we-do__body {
   font-size: 1rem;
@@ -27,16 +26,23 @@
   align-items: center;
   cursor: pointer;
 }
-.what-we-do__btns > button:nth-child(1) {
+.what-we-do__btns > a:nth-child(1) {
   height: 66px;
   width: 245px;
-  background: #0025b4;
   border-radius: 5px;
-  border: none;
-  outline: none;
   cursor: pointer;
-  color: #fff;
+  outline: none;
+  background-color: #0025b4;
+  background-image: url("../images-&-icons/hire-us-btn.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
+.what-we-do__btns > a:nth-child(1):hover {
+  box-shadow: 0 0 5px #0025b4;
+  transition: all 200ms;
+}
+
 .what-we-do-btn__two span:nth-child(1) {
   height: 17px;
   width: 20px;
@@ -45,13 +51,17 @@
   background-size: contain;
   display: inline-block;
 }
+.what-we-do-btn__two span:nth-child(2) {
+  font-family: Trueno;
+  font-weight: 700;
+  color: #0025b4;
+}
 .service__img-box {
   width: 50%;
-  height: 438px;
-  width: 467px;
-  background-image: url("../images-&-icons/service-image.svg");
+ /*  height: 400px; */
+ /*  background-image: url("../images-&-icons/service-image.svg");
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .regional-franchise {
@@ -69,6 +79,7 @@
   letter-spacing: 0px;
   text-align: center;
 }
+/* color: #0025B4; */
 .regional-franchise__bdy {
   display: flex;
   align-items: center;
