@@ -1,6 +1,6 @@
 import React from "react";
 import { company } from "./footerData";
-import img from "../images-&-icons/footer-logo.svg";
+import img from "../images-&-icons/logo.svg";
 
 import "./footer-style.css";
 import SocialFollow from "../social_follow/SocialFollow";

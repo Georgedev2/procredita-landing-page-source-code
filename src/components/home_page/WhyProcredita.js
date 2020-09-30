@@ -9,10 +9,12 @@ function WhyProcredita() {
       <div className="Why-Procredita_title">
         <img src={img} alt="why procredita image" />
       </div>
+
       <div className="Why-Procredita_bdy">
         <div>{whyProcredita}</div>
         <div className="img"></div>
       </div>
+      
       <div className="our-technology">
         <div className="our-technology__cards">
           {ourTech.map((el, i) => (

@@ -9,12 +9,15 @@ import img from "../images-&-icons/service-image.svg";
 function HomePage() {
   return (
     <div className="homepage">
+
       <div className="services">
         <div className="what-we-do">
           <div className="what-we-do__title">
             We provide a comprehensive debt collection service
           </div>
+
           <div className="what-we-do__body">{whatWeDoBody}</div>
+
           <div className="what-we-do__btns">
             <a href="#EFj"></a>
             {/* <HireUs/> */}
@@ -24,18 +27,23 @@ function HomePage() {
             </div>
           </div>
         </div>
+
         <div className="service__img-box">
           <img src={img} />
         </div>
       </div>
+      
       <WhyProcredita />
+
       <div className="regional-franchise">
         <div className="regional-franchise__title">
           <span></span>
           <span>Own a Procredita Regional Franchise</span>
         </div>
+
         <div className="regional-franchise__bdy">
           <div className="regional-franchise-bdy_img"></div>
+
           <div className="regional-franchise-bdy_txt">
             <div>{regionalFranchise}</div>
             <div>Become a Debt Collection Manager</div>
@@ -64,7 +72,7 @@ function HomePage() {
             {ourClients.map((cleint, index) => (
               <div key={index} className="cleint">
                 <div>{cleint.testimony}</div>
-                <div className="cleint_img">
+                <div className="cleint_img-cont">
                   <img src={cleint.img} />
                 </div>
               </div>
