@@ -4,7 +4,6 @@ import { whatWeDoBody, regionalFranchise, ourClients } from "./homeData";
 import "./home-style.css";
 import WhyProcredita from "./WhyProcredita";
 import HireUs from "./HireUs";
-import img from "../images-&-icons/service-image.svg";
 
 function HomePage() {
   return (
@@ -29,10 +28,10 @@ function HomePage() {
         </div>
 
         <div className="service__img-box">
-          <img src={img} />
+        
         </div>
       </div>
-      
+
       <WhyProcredita />
 
       <div className="regional-franchise">
