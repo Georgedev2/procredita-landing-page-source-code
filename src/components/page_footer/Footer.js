@@ -36,7 +36,7 @@ function Footer() {
 
       <div className="cookie">
         <div className="cookie-title">This website uses cookies</div>
-        <div className="prevacy-policy">
+        <div className="privacy-policy">
           {" "}
           We use cookies to personalise content and ads, to provide social media
           features and to analyse our traffic. We also share information about

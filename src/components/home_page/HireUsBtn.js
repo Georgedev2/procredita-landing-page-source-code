@@ -1,7 +1,7 @@
 import React from 'react'
 import  "./hire-us.css"
 
-function HireUs() {
+function HireUsBtn() {
     return (
         <div className="hire-us">
              <a href="#EFj"></a>
@@ -9,4 +9,4 @@ function HireUs() {
     )
 }
 
-export default HireUs
+export default HireUsBtn

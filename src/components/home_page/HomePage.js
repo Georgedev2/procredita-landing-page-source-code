@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import { whatWeDoBody, regionalFranchise, ourClients } from "./homeData";
 import "./home-style.css";
 import WhyProcredita from "./WhyProcredita";
-import HireUs from "./HireUs";
+import HireUsBtn from "./HireUsBtn";
 
 function HomePage() {
   return (

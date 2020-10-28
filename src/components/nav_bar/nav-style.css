@@ -40,7 +40,7 @@
 
 /* -------------NAV-BAR-MENU --------- */
 .navbar__menu {
-  width: 30%;
+  width: 40%;
 }
 .navbar-menu__links {
   display: flex;
@@ -61,6 +61,7 @@
   font-size: 1rem;
   cursor: pointer;
   letter-spacing: 0;
+  cursor: not-allowed;
 }
 
 .nav_links a:hover {
